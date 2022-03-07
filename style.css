@@ -1,0 +1,72 @@
+:root{
+	--um:#483434;
+	--dois:#6B4F4F;
+	--tres:#EED6C4;
+	--quatro:#FFF3E4;
+}
+
+body{
+	background-color:var(--um);
+}
+
+table {
+	border-collapse:collapse;
+	
+}
+
+.bloco {
+	width:50px;
+	height:50px;
+	border: 1px solid var(--tres);
+	color:var(--quatro);
+	background-color:var(--dois);
+	
+	text-align:center;
+	vertical-align:center;
+	
+	font-family:monospace;
+	font-size:18px;
+	position:relative;
+}
+
+.bloco:hover{
+	background-color:var(--um);
+	
+}
+
+.escondido{
+	background-color:var(--dois);
+}
+
+.achado{
+	background-color:var(--um);
+}
+
+.resolvido{
+	text-decoration: line-through;
+}
+
+.achadoPerm{
+	background-color:var(--um);
+}
+
+#wrap{
+	display:flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#palavras{
+	display:flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+	margin:15px;
+}
+
+.palavraEscondida{
+	border: 1px solid var(--tres);
+	background-color: var(--dois);
+	color:var(--quatro);
+	padding: 15px;
+	
+}
